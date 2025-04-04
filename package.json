@@ -1,17 +1,5 @@
 {
-  "name": "nodeserver",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node nodeServer/index.js",
-    "dev" : "node --watch app.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^5.1.0"
   }
 }
-

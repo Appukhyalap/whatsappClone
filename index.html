@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iChat - Realtime Node Socket.io Chat App</title>
+    <script defer src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+    <nav>
+        <img class="logo" src="https://imgs.search.brave.com/sgcjXPWGiVt2kq0jsFMVY7dvKz6AGEnPUHDydihGsVA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA4LzEyLzI1LzAw/LzM2MF9GXzgxMjI1/MDAwOF9JM2N4U1M2/V2VuaktqZjUwY1JF/Z21ScVA4djk2NkNv/bi5qcGc" alt="">
+        <h1>Welcome to iDiscuss Chat App</h1>
+    </nav>
+    <div class="container" id="messageContainer">
+        <!-- Messages appear here dynamically -->
+        <!-- Typing indicator -->
+        <div id="typing-indicator" style="display: none;">
+            <span id="typing-text"></span> is typing...
+        </div>
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" placeholder="Type your message..." name="messageInp" id="messageInp" autocomplete="off">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
